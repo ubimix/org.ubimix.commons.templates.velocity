@@ -30,7 +30,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  **/
-package org.webreformatter.commons.templates.velocity;
+package org.ubimix.commons.templates.velocity;
 
 import java.io.Writer;
 import java.util.Iterator;
@@ -42,10 +42,10 @@ import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 import org.apache.velocity.runtime.RuntimeConstants;
 
-import org.webreformatter.commons.templates.ITemplateProcessor;
-import org.webreformatter.commons.templates.ITemplateProvider;
-import org.webreformatter.commons.templates.TemplateException;
-import org.webreformatter.commons.templates.TemplateProcessor;
+import org.ubimix.commons.templates.ITemplateProcessor;
+import org.ubimix.commons.templates.ITemplateProvider;
+import org.ubimix.commons.templates.TemplateException;
+import org.ubimix.commons.templates.TemplateProcessor;
 
 /**
  * This is a Velocity-based ({@linkplain link

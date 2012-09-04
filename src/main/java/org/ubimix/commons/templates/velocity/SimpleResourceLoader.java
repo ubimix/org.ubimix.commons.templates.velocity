@@ -8,7 +8,7 @@
  * Contributors:
  *     Cognium Systems SA - initial API and implementation
  *******************************************************************************/
-package org.webreformatter.commons.templates.velocity;
+package org.ubimix.commons.templates.velocity;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,7 +19,7 @@ import org.apache.velocity.runtime.RuntimeServices;
 import org.apache.velocity.runtime.resource.Resource;
 import org.apache.velocity.runtime.resource.loader.ResourceLoader;
 
-import org.webreformatter.commons.templates.ITemplateProvider;
+import org.ubimix.commons.templates.ITemplateProvider;
 
 /**
  * This resource loader loads templates used by velocity engines.
